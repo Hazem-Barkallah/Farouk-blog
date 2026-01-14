@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background:  linear-gradient(135deg, #5a7c6f 0%, #6b8e7d 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 280px;
+}
+
+.lock-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding:  12px 15px 12px 45px;
+    border: none;
+    border-radius: 25px;
+    background-color:  #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="password"]:focus {
+    box-shadow:  0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+input[type="password"]::placeholder {
+    color: #999;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: #3d5449;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size:  0.9rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #2d4039;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width:  768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .input-wrapper {
+        width: 250px;
+    }
+}

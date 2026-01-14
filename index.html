@@ -3,32 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Farouk's Blog - A personal blog sharing life experiences">
-    <title>Welcome - Farouk's Blog</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Welcome - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="login-page">
-    <main class="login-container">
-        <div class="login-box">
-            <h1 class="login-title">WELCOME</h1>
-            <form id="loginForm" class="login-form" novalidate>
-                <div class="input-group">
-                    <span class="input-icon" aria-hidden="true">🔒</span>
-                    <input 
-                        type="password" 
-                        id="password" 
-                        name="password" 
-                        placeholder="Enter password"
-                        aria-label="Password"
-                        required
-                        autocomplete="current-password"
-                    >
-                </div>
-                <button type="submit" class="login-btn">LOGIN</button>
-                <p class="error-message" id="errorMessage" role="alert" aria-live="polite"></p>
-            </form>
+<body>
+    <div class="container">
+        <h1>WELCOME</h1>
+        <div class="login-form">
+            <div class="input-wrapper">
+                <span class="lock-icon">🔒</span>
+                <input type="password" id="password" placeholder="Password" />
+            </div>
+            <button id="loginBtn">LOGIN</button>
         </div>
-    </main>
-    <script src="js/main.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
