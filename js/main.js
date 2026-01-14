@@ -146,7 +146,7 @@ function isUserAuthenticated() {
  * @returns {string} - Random session ID
  */
 function generateSessionId() {
-    return 'session_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
+    return 'session_' + Math.random().toString(36).substring(2, 11) + '_' + Date.now();
 }
 
 /**
@@ -218,9 +218,9 @@ function addBlogCardInteractions() {
     const cards = document.querySelectorAll('.blog-card');
     
     cards.forEach(function(card) {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function(e) {
             // Add ripple effect
-            createRipple(card, event);
+            createRipple(card, e);
             
             // Optional: Navigate to full blog post
             // In a real application, this would link to individual post pages
