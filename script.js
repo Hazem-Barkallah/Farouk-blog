@@ -8,7 +8,7 @@ document.getElementById('loginBtn').addEventListener('click', function() {
     }
     
     // Change this password to your own
-    if (password === 'goku') {
+    if (password === 'hannibal') {
         // Set session token
         sessionStorage.setItem('isAuthenticated', 'true');
         sessionStorage.setItem('loginTime', Date.now());
