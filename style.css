@@ -101,3 +101,26 @@ button:active {
         width: 250px;
     }
 }
+
+/* RTL Support */
+[dir="rtl"] body {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] .container {
+    direction: rtl;
+}
+
+[dir="rtl"] .login-form {
+    direction: rtl;
+}
+
+[dir="rtl"] .input-wrapper {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .lock-icon {
+    margin-left: 10px;
+    margin-right: 0;
+}

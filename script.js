@@ -1,4 +1,9 @@
 // Login page script
+document.addEventListener('DOMContentLoaded', function() {
+    initializeLanguageSwitcher();
+    updatePageLanguage();
+});
+
 document.getElementById('loginBtn').addEventListener('click', function() {
     const password = document.getElementById('password').value;
     

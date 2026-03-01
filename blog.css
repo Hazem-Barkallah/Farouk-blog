@@ -313,3 +313,26 @@ body {
         flex-direction: column;
     }
 }
+
+/* RTL Support */
+[dir="rtl"] body {
+    text-align: right;
+    direction: rtl;
+}
+
+[dir="rtl"] .header {
+    direction: rtl;
+}
+
+[dir="rtl"] .blog-container {
+    direction: rtl;
+}
+
+[dir="rtl"] .blog-card {
+    text-align: right;
+}
+
+[dir="rtl"] .logout-btn {
+    left: 20px;
+    right: auto;
+}
