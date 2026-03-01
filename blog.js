@@ -16,6 +16,12 @@ window.logout = logout;
     }
 })();
 
+// Initialize language switcher
+document.addEventListener('DOMContentLoaded', function() {
+    initializeLanguageSwitcher();
+    updatePageLanguage();
+});
+
 // Logout function
 function logout() {
     sessionStorage.clear();

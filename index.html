@@ -5,18 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome - Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="language-switcher.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css">
 </head>
 <body>
+    <div class="language-switcher">
+        <button class="language-dropdown-btn" id="langDropdownBtn">
+            <span class="fi fi-gb flag-icon" id="currentFlag"></span>
+            <span class="lang-name" id="currentLangName">English</span>
+            <span class="arrow">▼</span>
+        </button>
+        <div class="language-dropdown-menu" id="langDropdownMenu">
+            <button class="language-option" data-lang="en" data-flag="gb">
+                <span class="fi fi-gb flag-icon"></span>
+                <span class="lang-name">English</span>
+            </button>
+            <button class="language-option" data-lang="fr" data-flag="fr">
+                <span class="fi fi-fr flag-icon"></span>
+                <span class="lang-name">Français</span>
+            </button>
+            <button class="language-option" data-lang="ar" data-flag="sa">
+                <span class="fi fi-sa flag-icon"></span>
+                <span class="lang-name">العربية</span>
+            </button>
+        </div>
+    </div>
     <div class="container">
-        <h1>WELCOME</h1>
+        <h1 data-i18n="welcome">WELCOME</h1>
         <div class="login-form">
             <div class="input-wrapper">
                 <span class="lock-icon">🔒</span>
-                <input type="password" id="password" placeholder="Password" />
+                <input type="password" id="password" data-i18n-placeholder="password" placeholder="Password" />
             </div>
-            <button id="loginBtn">LOGIN</button>
+            <button id="loginBtn" data-i18n="login">LOGIN</button>
         </div>
     </div>
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
