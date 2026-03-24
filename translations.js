@@ -57,14 +57,18 @@ const blogPostTranslations = {
             content: 'Je sais que Samar est une bonne personne, et je ne peux pas lui briser le cœur encore une fois… Mais maintenant je suis fiancé à quelqu’un d’autre. J’ai des responsabilités. Je ne peux pas fuir celle-ci non plus.'
         },
         {
+            title: 'Je sais plus quoi faire',
+            date: '08 DÉCEMBRE 2021',
+            content: 'Il dit que j\'agis bien. Si je me tais, si je garde ce secret, je peux continuer à faire le bien. Peut-être que sauver d\'autres vies compensera ce que j\'ai fait? <br>Peut etre...'
+        },
+        {
             title: 'Demain est le jour',
             date: '07 DÉCEMBRE 2021',
-            content: 'Il dit que je fais la bonne chose. Si je reste silencieux, si je garde ce secret, je pourrai continuer à faire le bien. Peut-être que sauver plus de personnes compensera ce que j’ai fait ? <br>Peut-être...'
+            content: 'Demain, je vais lui parler.\nJe n’en peux plus.\nJe dois dire à la famille du patient ce qui s’est réellement passé.'
         },
         {
             title: 'J’adore cette chanson de Linkin Park',
             date: '07 DÉCEMBRE 2021',
-            content: 'Quand mon heure viendra <br>Oublie le mal que j’ai fait<br>Aide-moi à laisser derrière moi<br>Des raisons d’être regretté<br>Et ne m’en veux pas<br>Et quand tu te sentiras vide<br>Garde-moi dans ta mémoire<br>#Leave out all the rest'
         },
         {
             title: 'Hannibal',
@@ -129,95 +133,93 @@ const blogPostTranslations = {
     ],
     ar: [
         {
-            title: 'قريبًا سأخرج هذا من صدري.',
+            title: 'على قريب واحد يفرغ إلي في قلبو',
             date: '10 ديسمبر 2021',
-            content: 'لقد حان وقت التكفير عن ذنوبي، وغدًا ستكون المحادثة الأخيرة.'
+            content: " وقيت واحد يكفر على ذنوبو, غدوة نحكيو اخر مرة."
         },
         {
-            title: 'الفعل',
+            title: ' وقيت حركة',
             date: '10 ديسمبر 2021',
             content: '"هل تريد أن تعرف من أنت؟ لا تسأل. افعل! الفعل هو ما يرسمك ويعرّفك."<br>— توماس جيفرسون'
         },
         {
-            title: 'الرقم الشخصي',
+            title: 'ميزان جديد',
             date: '09 ديسمبر 2021',
-            content: 'أخيرًا وصلت إلى 60 كغ في تمرين البنش برس، أتذكر عندما لم أستطع حتى رفع البار الفارغ. أعتقد أن الوقت قد حان لأتوقف عن الشرب.'
+            content: ' حمدالله الواحد وصل 60 كغ فل bench press, يا حسرة كي كنت حتى بار فارغ منجمش نهزو.  <br> وقيت الواحد يبطل الشراب'
         },
         {
-            title: 'آسف يا سمر',
+            title: ' سامحني سمر',
             date: '08 ديسمبر 2021',
-            content: 'أعرف أن سمر إنسانة طيبة، ولا أستطيع أن أكسر قلبها مرة أخرى… لكنني الآن مخطوب لشخص آخر. لدي مسؤوليات. ولا أستطيع الهروب من هذه أيضًا.'
+            content: ' سمر عبد باهي ومنجمش نكسرلها قلبها مرة اخرى, اما توى انا مخطوب لعبد اخر. <br> لازمني نكون مسؤول و منهربش ملحاجة هاذي زادة'
         },
         {
-            title: 'غدًا هو اليوم',
+            title: 'معادش نعرف شنوة نعمل',
+            date: '08 ديسمبر 2021',
+            content: 'قاللي إلي نعمل في الحاجة صحيحة, كان نبقى ساكت نجم نبقى نعمل في الخير. يمكن كي نبقى نداوي فالعباد نجم نعوض الشي إلي عملتو.'
+        },
+        {
+            title: 'غدوة النهار',
+            date: '08 ديسمبر 2021',
+            content: 'غدوة باش نحكي معاه. <br> ماعادش نجم نصبر. <br> لازمني نقول  لعائلة المريض شنوة صار برسمي.'
+        },
+        {
+            title: ' هالاغناية متاع Linkin Park تعجبني برشة',
             date: '07 ديسمبر 2021',
-            content: 'يقول إنني أفعل الشيء الصحيح. إذا بقيت صامتًا، وإذا احتفظت بهذا السر، يمكنني أن أستمر في فعل الخير. ربما إنقاذ المزيد من الناس سيعوّض ما فعلته؟ <br>ربما...'
         },
         {
-            title: 'أحب هذه الأغنية لـ Linkin Park',
-            date: '07 ديسمبر 2021',
-            content: 'عندما يحين وقتي <br>انسَ الأخطاء التي ارتكبتها<br>ساعدني أن أترك خلفي<br>أسبابًا تجعلني أُفتقد<br>ولا تستاء مني<br>وعندما تشعر بالفراغ<br>احتفظ بي في ذاكرتك<br>#اترك كل الباقي'
-        },
-        {
-            title: 'هانيبال',
+            title: 'حنبعل',
             date: '04 ديسمبر 2021',
-            content: 'الكلمات أشياء حيّة. لها شخصية، ووجهة نظر... وأجندة.'
+            content: ' الكلمات كائنات حيّة؛ لها شخصية، ولها وجهة نظر… بل ولها أجندتها الخاصة.'
         },
         {
             title: 'أنا آسف يا صديقي',
             date: '03 ديسمبر 2021',
-            content: 'طيّب، يا صديقي العزيز...<br>أتمنى أن تسامحني يومًا ما.'
+            content: ' طيب صاحبي نشاءالله تسامحني'
         },
         {
-            title: 'لقد فشلت',
+            title: ' منجحتش',
             date: '01 ديسمبر 2021',
-            content: 'ها أنا أشرب مرة أخرى، إرادتي ضعيفة جدًا.'
+            content: ' إرادتي ضعيفة، قلت باش نبطل الشراب و هاني رجعتلو '
         },
         {
-            title: 'هياااا',
+            title: 'يلاااااا',
             date: '01 ديسمبر 2021',
-            content: 'مرّت 4 أيام منذ آخر مرة شربت فيها، نستطيع فعلها.'
+            content: '4 أيام منغير منشرب حتى قطرة, نجمو نعملوها'
         },
         {
             title: 'نيلسون مانديلا',
             date: '01 ديسمبر 2021',
-            content: 'يبدو الأمر دائمًا مستحيلاً حتى يتم.'
+            content: 'يبدو الأمر دائمًا مستحيلاً حتى يتم إنجازه.'
         },
         {
-            title: 'أتمنى لو أستطيع العودة',
-            date: '22 نوفمبر 2021',
-            content: '"معرفة الحزن ليست مخيفة. المخيف هو أن تعرف أنك لا تستطيع العودة إلى السعادة التي كان يمكن أن تكون لك."<br>— ماتسوموتو رانجيكو'
-        },
-        {
-            title: 'خارج السيطرة',
+            title: 'الأمور خرجت عالسيطرة',
             date: '20 نوفمبر 2021',
-            content: 'الأمور تخرج عن السيطرة. <br>تحدثت معه. أخبرته أنني أريد قول الحقيقة للعائلة، لكنه غضب. قال إن أفعالي ستدمر المستشفى. وقال لي أن أفكر بكل الخير الذي ما زلنا نستطيع فعله هنا؛'
+            content: 'الامور خجرت عسيطرة. <br>حكيت معاه و قتلو راني نحب نقول للعايلة الحقيقة, تغشش و قلي افعالي باش تفسد سمعة الكلينيك. <br>قلي زيد فكر مليح رانا مزلنا نجمو نعملو الخير مدامنا مزلنا نخدمو في الكلينيك'
         },
         {
-            title: 'لست مختلفًا',
+            title: 'مانيش خير منهم',
             date: '12 نوفمبر 2021',
-            content: 'تركت شخصًا طيبًا فقط لأضمن نجاحي...<br>كيف أكون مختلفًا إذًا؟<br>أنا آسف يا سمر.<br>أحيانًا أتساءل إن كانت الأمور ستختلف لو اخترتك أنت.'
+            content: 'خليت إنسان باهي باش نظمن النجاح <br> سامحني سمر <br> مانيش بعيد عليهم <br> سعات نخمم كان اخترتك كانت الامور باش تكون مختلفة ولا '
         },
         {
-            title: 'من أنا',
+            title: 'شكون انا ',
             date: '10 نوفمبر 2021',
-            content: 'لم أتوقع يومًا أن أنشر مرة أخرى، لكن إبقاء هذه الأفكار في رأسي يقتلني ببطء.<br>لقد فشلت كطبيب. لقد فشلت مع مريضي. كان من المفترض أن أنقذه — وأنا أعلم أنني كنت أستطيع.<br>كنت الوحيد القادر على إجراء العملية بنجاح.<br>لكن كل هذا كان بسببه... ذلك رئيس المستشفى العجوز الأناني.<br>كنت أعتبره قدوتي، شخصًا أحتذي به. لكنه حطم تلك الصورة.<br>كيف يمكن أن تختار المال والهيبة على حساب أخلاقك؟<br>ومع ذلك، الخطأ خطئي أيضًا. كان يجب أن أقول لا.<br>كان يجب أن أرفض إجراء عملية العمدة بدلًا من مريضي.<br>ومن يهتم إن كان متبرعًا كبيرًا؟<br>أليست كل الأرواح متساوية؟'
+            content: ' عمري ماخممت بش نعاود نهبط لهنا مرة اخرى, اما لزمني نحكي ونخرج اللي في قلبي.<br>انا فشلت كطبيب, خيبت امل مريضي. ملمفروض انا نمنعو. أنا نعرف اللي كنت نجم .انا الطبيب الوحيد اللي كان ينجم...<br>الكلها غلطة هو, هاكة المدير الأناني.<br>كنت حاسبو قدوة, عبد كي نكبر نحب نكون كيفو اما توا مستحيل<br>كيفاش ينجم يختار الفلوس قدام القيم ؟<br>اما تبقى غلطتي انا زادة, كنت نجم نقول لا<br>كان لازمني نعمل العملية على مريضي موش على العمدة<br>وبرا كان يتبرع ببرشا فلوس. موش النفوس الكل كيف كيف ؟'
         },
         {
-            title: 'ماذا أفعل',
+            title: 'في شنوة قاعد نعمل',
             date: '07 نوفمبر 2021',
-            content: 'الشرب؟ أنا؟ لم أتخيل أنني سأسلك هذا الطريق. <br>كنت أظن أنني... قوي.'
+            content: 'انا نشرب مرة اخرى !؟ مكنتش نخمم باش يجي نهار ونطيح لهدرجة<br> ماشي فيبالي اللي عندي شخصية قوية...'
         },
         {
-            title: 'آسف يا صديقي',
+            title: 'سامحني صاحبي',
             date: '06 نوفمبر 2021',
-            content: 'أنا آسف يا صديقي.<br>خذلت نفسي، والأسوأ أنني خذلت ثقتك بي.'
+            content: 'سامحني صاحبي<br>خيبت أمل روحي, وأخيب من هكا طيحت ثيقتك فية في الماء'
         },
         {
             title: 'نهايتي',
             date: '05 نوفمبر 2021',
-            content: 'كان الأمس هو اليوم الذي تخلّيت فيه عن كل ما كنت أؤمن به.<br>لماذا أصبحت طبيبًا؟<br>ألم يكن لأساعد الضعفاء؟ ولأمد يدي لمن يعانون؟<br>هل كانت كل أحلامي مجرد آمال لشاب ساذج؟'
-        }
+content:"امس كان النهار اللي القيم اللي كنت نمشي عليها طاحت في الماء <br> علاش وليت طبيب ؟ موش باش نعاون اللي منيجمش ؟ موش باش نكون سند للي يعاني ؟<br>ياخي أحلامي كنت طموحات طفل صغير ؟"        }
     ]
 };
 
@@ -227,7 +229,7 @@ function captureDefaultBlogPosts() {
     const cards = document.querySelectorAll('.blog-container .blog-card');
     if (!cards.length) return;
 
-    window.__defaultBlogPosts = Array.from(cards).map(function(card) {
+    window.__defaultBlogPosts = Array.from(cards).map(function (card) {
         const titleElement = card.querySelector('h2');
         const dateElement = card.querySelector('.date');
         const contentElement = card.querySelector('.content');
@@ -250,7 +252,7 @@ function updateBlogPostsLanguage() {
     const translatedPosts = blogPostTranslations[lang] || [];
     const defaultPosts = window.__defaultBlogPosts || [];
 
-    Array.from(cards).forEach(function(card, index) {
+    Array.from(cards).forEach(function (card, index) {
         const titleElement = card.querySelector('h2');
         const dateElement = card.querySelector('.date');
         const contentElement = card.querySelector('.content');
@@ -280,12 +282,12 @@ function t(key) {
 }
 
 function updatePageLanguage() {
-    document.querySelectorAll('[data-i18n]').forEach(function(element) {
+    document.querySelectorAll('[data-i18n]').forEach(function (element) {
         const key = element.getAttribute('data-i18n');
         element.textContent = t(key);
     });
 
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(element) {
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function (element) {
         const key = element.getAttribute('data-i18n-placeholder');
         element.placeholder = t(key);
     });
@@ -309,14 +311,14 @@ function initializeLanguageSwitcher() {
 
     setLanguage(getCurrentLanguage());
 
-    langDropdownBtn.addEventListener('click', function(e) {
+    langDropdownBtn.addEventListener('click', function (e) {
         e.stopPropagation();
         isOpen = !isOpen;
         langDropdownMenu.classList.toggle('show', isOpen);
         langDropdownBtn.classList.toggle('open', isOpen);
     });
 
-    document.addEventListener('click', function() {
+    document.addEventListener('click', function () {
         if (isOpen) {
             isOpen = false;
             langDropdownMenu.classList.remove('show');
@@ -324,8 +326,8 @@ function initializeLanguageSwitcher() {
         }
     });
 
-    document.querySelectorAll('.language-option').forEach(function(button) {
-        button.addEventListener('click', function(e) {
+    document.querySelectorAll('.language-option').forEach(function (button) {
+        button.addEventListener('click', function (e) {
             e.stopPropagation();
             const newLang = this.dataset.lang;
             const newFlag = this.dataset.flag;
@@ -352,7 +354,7 @@ function updateCurrentLanguageDisplay(lang, flag) {
     if (currentFlag) currentFlag.className = 'fi fi-' + flag + ' flag-icon';
     if (currentLangName) currentLangName.textContent = languageConfig[lang].name;
 
-    document.querySelectorAll('.language-option').forEach(function(btn) {
+    document.querySelectorAll('.language-option').forEach(function (btn) {
         btn.classList.toggle('active', btn.dataset.lang === lang);
     });
 }

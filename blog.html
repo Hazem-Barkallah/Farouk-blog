@@ -80,11 +80,18 @@
                 I have responsibilities. I can’t run from this one too.</p>
         </article>
         <article class="blog-card">
+            <h2>IDK anymore</h2>
+            <p class="date">DECEMBER 08, 2021</p>
+            <p class="content">He says I’m doing the right thing. If I stay quiet, if I keep this secret, I can continue
+                doing good. Maybe saving more people will make up for what I did ?
+                Maybe..</p>
+        </article>
+        <article class="blog-card">
             <h2>Tomorrow is the day</h2>
             <p class="date">DECEMBER 07, 2021</p>
-            <p class="content">He says I’m doing the right thing. If I stay quiet, if I keep this secret, I can continue
-                doing good. Maybe saving more people will make up for what I did ? <br>
-                Maybe...</p>
+            <p class="content">Tomorrow I will confront him.<br>
+                I’m about to break.<br>
+                I need to tell the family of the patient what really happened</p>
         </article>
         <article class="blog-card">
             <h2>I love this linkin park song</h2>
@@ -179,52 +186,52 @@
         </article>
     </main>
     <div id="postModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Create New Post</h2>
-        <form id="postForm">
-            <div class="form-group">
-                <label for="postTitle">Title</label>
-                <input type="text" id="postTitle" required>
-            </div>
-            <div class="form-group">
-                <label for="postDate">Date</label>
-                <input type="date" id="postDate" required>
-            </div>
-            <div class="form-group">
-                <label for="postContent">Content</label>
-                <textarea id="postContent" rows="6" required></textarea>
-            </div>
-            <div class="form-actions">
-                <button type="button" class="submit-btn" disabled>Publish Post</button>
-                <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
-            </div>
-        </form>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create New Post</h2>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="postTitle">Title</label>
+                    <input type="text" id="postTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="postDate">Date</label>
+                    <input type="date" id="postDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="postContent">Content</label>
+                    <textarea id="postContent" rows="6" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="submit-btn" disabled>Publish Post</button>
+                    <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-<script>
+    <script>
         // Get elements
         const addPostBtn = document.getElementById('addPostBtn');
         const closeBtn = document.querySelector('.close');
         const cancelBtn = document.getElementById('cancelBtn');
 
         // Open modal
-        addPostBtn.onclick = function() {
+        addPostBtn.onclick = function () {
             postModal.style.display = 'block';
         }
 
         // Close modal - X button
-        closeBtn.onclick = function() {
-            postModal. style.display = 'none';
+        closeBtn.onclick = function () {
+            postModal.style.display = 'none';
         }
 
         // Close modal - Cancel button
-        cancelBtn.onclick = function() {
-            postModal. style.display = 'none';
+        cancelBtn.onclick = function () {
+            postModal.style.display = 'none';
         }
 
         // Close modal - Click outside
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target == postModal) {
                 postModal.style.display = 'none';
             }
