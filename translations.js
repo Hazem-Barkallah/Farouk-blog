@@ -18,7 +18,7 @@ const translations = {
         addPost: 'Ajouter un article'
     },
     ar: {
-        welcome: 'مرحبا',
+        welcome: 'مرحبا بيك',
         password: 'كلمة المرور',
         login: 'تسجيل الدخول',
         blogTitle: 'مدونة عن حياتي',
