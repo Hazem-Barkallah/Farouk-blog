@@ -96,11 +96,6 @@ const blogPostTranslations = {
             content: 'Cela semble toujours impossible jusqu’à ce que ce soit fait.'
         },
         {
-            title: 'J’aimerais pouvoir revenir en arrière',
-            date: '22 NOVEMBRE 2021',
-            content: '"Connaître la tristesse n’est pas terrifiant. Ce qui est terrifiant, c’est de savoir que tu ne peux pas revenir au bonheur que tu aurais pu avoir."<br>— Matsumoto Rangiku'
-        },
-        {
             title: 'Hors de contrôle',
             date: '20 NOVEMBRE 2021',
             content: 'Les choses deviennent incontrôlables. <br>Je lui ai parlé. Je lui ai dit que je voulais dire la vérité à la famille, mais il s’est énervé. Il a dit que mes actions détruiraient l’hôpital. Il m’a dit de penser à tout le bien que nous pouvions encore faire ici ;'
